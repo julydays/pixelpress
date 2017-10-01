@@ -6,8 +6,12 @@ class Home extends Component {
     render () {
        return (
            <div className="center-items">
-               <h1 className="header">Antidoto</h1>
-               <img src={logo} className="App-logo" alt="logo" />
+               <div>
+                   <h1 className="header">Antidoto</h1>
+                   <div className="center-items">
+                       <img src={logo} className="App-logo" alt="logo" />
+                   </div>
+               </div>
            </div>
        )
     }
