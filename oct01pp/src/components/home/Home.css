@@ -1,0 +1,20 @@
+.header {
+    color: tomato;
+    font-size: 5em;
+    text-align: center;
+    width: 100%;
+    border: 1px solid crimson;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+    margin: 15px auto;
+}
+
+.center-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
