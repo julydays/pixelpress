@@ -1,17 +1,22 @@
-.center-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.body {
+    background-color: black;
+}
+
+.bg-img {
+    padding-left: 25%;
+    background-size: 150px;
 }
 
 .header {
-    color: tomato;
-    font-size: 5em;
-    text-align: center;
-    width: 100%;
+    color: cadetblue;
+    font-size: 3em;
+    font-family: "Adobe Garamond Pro", serif;
+    text-align: left;
+    margin-left: 10%;
 }
 
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 80px;
 }
+

@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import './Home.css';
-import logo from '../../media/img/logo.svg';
+import bg from '../../media/img/bg.png';
 
 class Home extends Component {
     render () {
-       return (
-           <div className="center-items">
-               <div>
-                   <h1 className="header">Antidoto</h1>
-                   <div className="center-items">
-                       <img src={logo} className="App-logo" alt="logo" />
-                   </div>
-               </div>
+        return <div className="body">
+            <h1 className="header">antidoto</h1>
+           <div>
+               <img src={bg} className="bg-img"/>
            </div>
-       )
+        </div>
     }
 }
 
