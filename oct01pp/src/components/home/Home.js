@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
-import bg from '../../media/img/bg.png';
+
 
 class Home extends Component {
     render () {
@@ -25,7 +26,7 @@ class Home extends Component {
                                 <a href="" className="yellow">ejemplares</a>
                             </li>
                             <li>
-                                <a href="" className="white">copies</a>
+                                <Link to="copies" className="white">copies</Link>
                             </li>
                         </ul>
                     </div>
