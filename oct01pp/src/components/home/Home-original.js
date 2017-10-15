@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.css';
+import './Home.scss';
 import bg from '../../media/img/bg.png';
 
 class Home extends Component {
