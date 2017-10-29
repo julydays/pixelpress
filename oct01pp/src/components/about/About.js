@@ -16,7 +16,16 @@ class About extends Component {
                     <Link to='/'>{t('HOME')}</Link>
                 </header>
 
+<<<<<<< HEAD
                 <main className="main">
+=======
+            </div>
+            <div className="secondarynav">
+
+                <Link to='/copies' className="button">{t('copies')}</Link>
+            </div>
+                <main className="secondarymain">
+>>>>>>> 4a7c59f823651983c58f7b9eed371997b0486a16
 
                     <h2 className="white">{t('ABOUT_TEXT_EN')}</h2>
 
