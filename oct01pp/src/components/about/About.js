@@ -9,29 +9,22 @@ class About extends Component {
         const { t } = this.props;
 
         return <section className="body">
-            <div className="wrapper">
+            <div className="secheader">
 
-                <header className="header">
-                    <h1>about</h1>
-                    <Link to='/'>{t('HOME')}</Link>
-                </header>
+                    <h2>about</h2>
 
-<<<<<<< HEAD
-                <main className="main">
-=======
             </div>
             <div className="secondarynav">
 
                 <Link to='/copies' className="button">{t('copies')}</Link>
             </div>
                 <main className="secondarymain">
->>>>>>> 4a7c59f823651983c58f7b9eed371997b0486a16
 
-                    <h2 className="white">{t('ABOUT_TEXT_EN')}</h2>
+                    <div className="text">{t('ABOUT_TEXT_EN')}</div>
 
                 </main>
 
-            </div>
+
         </section>
     }
 }
