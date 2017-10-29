@@ -11,7 +11,10 @@ class About extends Component {
         return <section className="body">
             <div className="secheader">
 
+                <div>
                     <h2>about</h2>
+                    <h3>antidoto</h3>
+                </div>
 
             </div>
             <div className="secondarynav">
