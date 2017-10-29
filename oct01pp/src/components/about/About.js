@@ -16,7 +16,7 @@ class About extends Component {
             </div>
             <div className="secondarynav">
 
-                <Link to='./.' className="button">{t('copies')}</Link>
+                <Link to='/copies' className="button">{t('copies')}</Link>
             </div>
                 <main className="secondarymain">
 
