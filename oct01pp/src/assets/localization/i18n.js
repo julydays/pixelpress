@@ -9,14 +9,14 @@ i18n
         resources: {
             en: {
                 translations: {
-                    "LANGUAGE": "I'm from Brooklyn, I speak English.",
+                    "ABOUT_TEXT_EN": "About text in English. Dummy copy placed here to check size, character count, and other important things. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec sodales ante, sed dapibus turpis. Integer dictum ultricies felis quis tincidunt. Nam id placerat mi.",
                     "HOME": "Home",
                     "COPIES": "Copies"
                 }
             },
             es: {
                 translations: {
-                    "LANGUAGE": "Yo vivo en Brooklyn Tambien.",
+                    "ABOUT_TEXT_ES": "About text in Spanish. Dummy copy placed here to check size, character count, and other important things. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec sodales ante, sed dapibus turpis. Integer dictum ultricies felis quis tincidunt. Nam id placerat mi.",
                     "HOME": "Inicio",
                     "COPIES": "Ejemplares"
                 }
