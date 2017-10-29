@@ -30,20 +30,30 @@
   */
   //TODO align the content to the baseline!
   section .secheader {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
     width: 100%;
     min-height: 10vh;
     border-bottom: 1px solid #FFF;
-    align-items: baseline;
+
+    div {
+      display: flex;
+      align-items: baseline;
+    }
   }
 
   section .secheader h2 {
-    margin-left: 40px;
+    margin: 0 3px 0 40px;
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1.5em;
   }
+
   /* TODO style the smaller logo like this but place in line*/
   section .secheader h3 {
+    margin: 0;
     color: #0E6F8D;
     font-family: "Adobe Garamond Pro", serif;
     font-size: 2em;
