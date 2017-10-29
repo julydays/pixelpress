@@ -24,7 +24,7 @@ class Home extends Component {
                     <div className="nav">
                         <ul>
                             <li onClick={() => changeLanguage('es')}>
-                                <Link to="about" className="yellow">acerca de</Link>
+                                <Link to="acercade" className="yellow">acerca de</Link>
                             </li>
                             <li onClick={() => changeLanguage('en')}>
                                 <Link to="about" className="white">about</Link>

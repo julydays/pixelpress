@@ -85,7 +85,9 @@
   section .wrapper .main .nav ul li a {
     font-weight: 200;
     margin-top: 0;
-    padding-top: 0; }
+    padding-top: 0;
+    font-family: "Andale Mono", serif;
+    text-decoration-line: none; }
   /*made the image a background image of a div so it scales and does not take up extra space*/
   section .wrapper .main .img {
     background-image: url("../../assets/media/img/bg.png");
