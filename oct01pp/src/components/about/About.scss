@@ -27,8 +27,8 @@
   }
 
   /*header for all secondary pages.
-  Trying to align the content to the baseline!
   */
+  //TODO align the content to the baseline!
   section .secheader {
     width: 100%;
     min-height: 10vh;
@@ -42,14 +42,14 @@
     font-family: "Andale Mono", serif;
     font-size: 1.5em;
   }
-  /*would like to style the smaller logo like this but place in line*/
+  /* TODO style the smaller logo like this but place in line*/
   section .secheader h3 {
     color: #0E6F8D;
     font-family: "Adobe Garamond Pro", serif;
     font-size: 2em;
   }
 
-  /*trying to have some elements align in a row/right,
+  /* TODO have some elements align in a row/right,
   not sure how to so applied a clumsy margin-right.
   Also, not sure why the color isn't appearing*/
   section .secondarynav {
@@ -62,7 +62,7 @@
     font-size: 1em;
   }
 
-  /*not sure why this style doesn't appear, I copied this into the section above*/
+  /*TODO figure out why this style doesn't appear, I copied this into the section above*/
   section .secondarynav button {
     color: #AABB94;
     font-family: "Andale Mono", serif;
@@ -78,7 +78,7 @@
     font-size: .8em;
   }
 
-  /*not sure why this style doesn't appear*/
+  /*TODO figure out why this style doesn't appear*/
   section .secondarymain text {
     font-family: "Andale Mono", serif;
     color: #FFF;
