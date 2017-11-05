@@ -1,5 +1,3 @@
-/*This file can be much smaller and more concise*/
-/*especially if you install a css processor like SCSS / SASS*/
 /*!
  * Copyright (c) 2017. Traveliko PTE.LTD. All rights Reserved.
  */
@@ -14,10 +12,6 @@
 @media only screen and (min-width: 320px) {
   /*main container */
   section {
-    background-color: #000;
-    min-height: 100vh;
-    width: 100%;
-    height: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;
@@ -33,30 +27,33 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     -moz-align-items: center;
-    align-items: center; }
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #000; }
   /*inner wrapper container*/
   section .wrapper {
     width: 100%;
-    min-height: 88vh;
     height: 98%;
+    min-height: 88vh;
     margin: auto 0;
     border-top: 1px solid #FFF;
     border-bottom: 1px solid #FFF; }
   /*header container*/
   section .wrapper .header {
     /*creates equal distance from the top border and first link in the nav*/
-    height: 24vh;
     display: flex;
     justify-content: center;
-    flex-direction: column; }
-  section .wrapper .header h1 {
-    color: #0E6F8D;
-    font-size: 5.2em;
-    font-weight: 200;
-    text-align: center;
-    font-family: "Adobe Garamond Pro", serif; }
+    flex-direction: column;
+    height: 24vh; }
+    section .wrapper .header h1 {
+      text-align: center;
+      font-size: 5.2em;
+      font-weight: 200;
+      font-family: "Adobe Garamond Pro", serif;
+      color: #0E6F8D; }
   /*main body container*/
-  /*navigation container*/
   section .wrapper .main .nav {
     list-style: none;
     display: flex;

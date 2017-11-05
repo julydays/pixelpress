@@ -65,6 +65,10 @@
   /* TODO have some elements align in a row/right,
   not sure how to so applied a clumsy margin-right.
   Also, not sure why the color isn't appearing*/
+  section .secondarynav .button {
+    color: #AABB94;
+    font-family: "Andale Mono", serif;
+    font-size: 1em; }
   section .secondarynav {
     margin-left: 40px;
     height: 12vh;
@@ -73,8 +77,9 @@
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1em; }
-    section .secondarynav button {
+    section .secondarynav .button {
       color: #AABB94;
+      background-color: #AABB94;
       font-family: "Andale Mono", serif;
       font-size: 1em; }
   /*TODO figure out why this style doesn't appear, I copied this into the section above*/

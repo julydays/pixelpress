@@ -10,22 +10,19 @@ class About extends Component {
 
         return <section className="body">
             <div className="secheader">
-
                 <div>
                     <h2>about</h2>
                     <h3>antidoto</h3>
                 </div>
-
             </div>
-            <div className="secondarynav">
 
+            <div className="secondarynav">
                 <Link to='/copies' className="button">{t('copies')}</Link>
             </div>
-                <main className="secondarymain">
 
-                    <div className="text">{t('ABOUT_TEXT_EN')}</div>
-
-                </main>
+            <main className="secondarymain">
+                <div className="text">{t('ABOUT_TEXT_EN')}</div>
+            </main>
 
 
         </section>
