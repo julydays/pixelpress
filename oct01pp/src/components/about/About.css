@@ -35,6 +35,10 @@
     -webkit-align-items: left;
     -moz-align-items: left;
     align-items: left; }
+  button {
+    color: #AABB94;
+    font-family: "Andale Mono", serif;
+    font-size: 1em; }
   /*header for all secondary pages.
   */
   section .secheader {
@@ -69,6 +73,10 @@
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1em; }
+    section .secondarynav button {
+      color: #AABB94;
+      font-family: "Andale Mono", serif;
+      font-size: 1em; }
   /*TODO figure out why this style doesn't appear, I copied this into the section above*/
   section .secondarynav button {
     color: #AABB94;

@@ -26,6 +26,12 @@
     @include align-items(left);
   }
 
+  button {
+    color: #AABB94;
+    font-family: "Andale Mono", serif;
+    font-size: 1em;
+  }
+
   /*header for all secondary pages.
   */
   //TODO align the content to the baseline!
@@ -70,6 +76,12 @@
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1em;
+
+    button {
+      color: #AABB94;
+      font-family: "Andale Mono", serif;
+      font-size: 1em;
+    }
   }
 
   /*TODO figure out why this style doesn't appear, I copied this into the section above*/
