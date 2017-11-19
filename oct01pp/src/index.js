@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Link, Switch, Redirect} from 'react-rout
 import Home from './components/home/Home';
 import Copies from './components/copies/Copies';
 import About from './components/about/About';
+import Ejemplares from './components/ejemplares/Ejemplares';
 import './index.css';
 
 // localization dependencies
@@ -20,6 +21,7 @@ const Root = () => {
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/copies' component={Copies}/>
                 <Route exact path='/about' component={About}/>
+                <Route exact path='/ejemplares' component={Ejemplares}/>
 
             </div>
         </Router>
