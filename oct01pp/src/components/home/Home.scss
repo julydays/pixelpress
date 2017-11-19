@@ -46,17 +46,13 @@
       display: flex;  // use sass mixins here
       justify-content: center;
       flex-direction: column;
-
       height: 24vh;
-
 
       h1 {
         text-align: center;
-
         font-size: 5.2em;
         font-weight: 200;
         font-family: "Adobe Garamond Pro", serif;
-
         color: #0E6F8D;
       }
     }
@@ -70,7 +66,6 @@
         justify-content: flex-start;
         flex-direction: row;
         align-items: center;
-
         margin-right: 0;
       }
     }

@@ -6,6 +6,7 @@ import './Copies.css';
 
 class Copies extends Component {
     render () {
+
         const { t } = this.props;
 
         return <section className="body">
