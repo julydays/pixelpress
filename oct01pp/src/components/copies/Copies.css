@@ -1,3 +1,64 @@
 /*!
  * Copyright (c) 2017. Traveliko PTE.LTD. All rights Reserved.
  */
+/*colors */
+.yellow {
+  color: #AABB94; }
+
+.white {
+  color: #FFF; }
+
+.blue {
+  color: #0E6F8D; }
+
+/*mobile styles are applied to every other screen size until you override it*/
+@media only screen and (min-width: 320px) {
+  /*main container */
+  section {
+    background-color: #000;
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    -webkit-align-items: left;
+    -moz-align-items: left;
+    align-items: left; }
+  button {
+    color: #AABB94;
+    font-family: "Andale Mono", serif;
+    font-size: 1em; }
+  /*header for all secondary pages.
+  */
+  section .secheader {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10vh;
+    border-bottom: 1px solid #FFF; }
+    section .secheader div {
+      display: flex;
+      align-items: baseline; }
+  section .secheader h2 {
+    margin: 0 3px 0 40px;
+    color: #AABB94;
+    font-family: "Andale Mono", serif;
+    font-size: 1.5em; }
+  /* TODO style the smaller logo like this but place in line*/
+  section .secheader h3 {
+    margin: 0;
+    color: #0E6F8D;
+    font-family: "Adobe Garamond Pro", serif;
+    font-size: 2em; } }

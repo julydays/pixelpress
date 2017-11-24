@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import { translate, Trans } from 'react-i18next';
 import styled, { css } from 'styled-components';
 import './Ejemplares.css';
 
@@ -20,7 +20,7 @@ class Ejemplares extends Component {
 
     render () {
 
-        // const { t } = this.props;
+        const { t } = this.props;
 
 
         return (
@@ -34,9 +34,9 @@ class Ejemplares extends Component {
     }
 }
 
-export default Ejemplares;
+export default translate('translations')(Ejemplares);
 
-// export default translate('translations')(Ejemplares);
+
 
 
 

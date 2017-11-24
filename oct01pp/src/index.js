@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Link, Switch, Redirect} from 'react-rout
 import Home from './components/home/Home';
 import Copies from './components/copies/Copies';
 import About from './components/about/About';
-import Ejemplares from './components/ejemplares/Ejemplares';
+import Ejemplares from './components/_archive/ejemplares/Ejemplares';
 import './index.css';
 
 // localization dependencies

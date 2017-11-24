@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 import { translate, Trans } from 'react-i18next';
 import './Copies.css';
 
-
 class Copies extends Component {
     render () {
-
         const { t } = this.props;
 
         return <section className="body">
-            <div className="wrapper">
-
-                <header className="header">
-                    <h1>copies</h1>
-                    <Link to='/'>{t('HOME')}</Link>
-                </header>
-
-                <main className="main">
-
-                    <h2 className="white">{t('LANGUAGE')}</h2>
-
-                </main>
-
+            <div className="secheader">
+                <div>
+                    <h2>order</h2>
+                    <h3>antidoto</h3>
+                </div>
             </div>
+
+            <div className="secondarynav">
+                <Link to='/about' className="button">{t('about')}</Link>
+            </div>
+
+            <main className="secondarymain">
+                <div className="text">{t('ABOUT_TEXT_EN')}</div>
+            </main>
+
+
         </section>
     }
 }
