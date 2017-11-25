@@ -28,10 +28,6 @@ class Copies extends Component {
                     <div className="caption"> {t('TITLE_2_EN')}</div>
                 </div>
 
-                <div className="title1">
-                    <div className="caption"> {t('TITLE_1_EN')}</div>
-                </div>
-
             </main>
 
 <div className="button">{t('ORDER_EN')}</div>
