@@ -9,7 +9,7 @@ i18n
         resources: {
             en: {
                 translations: {
-                    "ABOUT_TEXT_EN": "Antidoto focuses on long-form text and photo/media essays with an international scope. For orders and information write to: info@antidoto.global.",
+                    "ABOUT_TEXT_EN": "Antidoto focuses on long-form text and photo essays with an international scope. For orders and information write to: info@antidoto.global.",
                     "HOME": "Home",
                     "COPIES": "Copies",
                     "TITLE_1_EN": "Promises |  Mexico |  2017  |  96 pp.",
