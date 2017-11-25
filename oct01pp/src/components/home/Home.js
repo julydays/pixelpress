@@ -43,7 +43,7 @@ class Home extends Component {
                 </main>
 
             </div>
-            <footer className="footer">info@antidoto.global</footer>
+
         </section>
     }
 }

@@ -19,10 +19,22 @@ class Copies extends Component {
                 <Link to='/about' className="button">{t('about')}</Link>
             </div>
 
-            <main className="secondarymain">
-                <div className="text">{t('ABOUT_TEXT_EN')}</div>
+            <main className="thumbnails">
+                <div className="title1">
+                    <div className="caption"> {t('TITLE_1_EN')}</div>
+                </div>
+
+                <div className="title2">
+                    <div className="caption"> {t('TITLE_2_EN')}</div>
+                </div>
+
+                <div className="title1">
+                    <div className="caption"> {t('TITLE_1_EN')}</div>
+                </div>
+
             </main>
 
+<div className="button">{t('ORDER_EN')}</div>
 
         </section>
     }

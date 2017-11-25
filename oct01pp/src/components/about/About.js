@@ -25,8 +25,6 @@ class About extends Component {
                 <div className="text">{t('ABOUT_TEXT_EN')}</div>
             </main>
 
-            <footer className="footer">info@antidoto.global
-            </footer>
         </section>
 
     }
