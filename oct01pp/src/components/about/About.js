@@ -18,11 +18,11 @@ class About extends Component {
             </div>
 
             <div className="secondarynav">
-                <Link to='/copies' className="button">{t('copies')}</Link>
+                <Link to='/copies' className="button">{t('COPIES')}</Link>
             </div>
 
             <main className="secondarymain">
-                <div className="text">{t('ABOUT_TEXT_EN')}</div>
+                <div className="text">{t('ABOUT_TEXT')}</div>
             </main>
 
         </section>

@@ -9,22 +9,22 @@ i18n
         resources: {
             en: {
                 translations: {
-                    "ABOUT_TEXT_EN": "Antidoto focuses on long-form text and photo essays with an international scope. For orders and information write to: info@antidoto.global.",
+                    "ABOUT_TEXT": "Antidoto focuses on long-form text and photo essays with an international scope. For orders and information write to: info@antidoto.global.",
                     "HOME": "Home",
                     "COPIES": "Copies",
-                    "TITLE_1_EN": "Promises |  Mexico |  2017  |  96 pp.",
-                    "TITLE_2_EN": "Havana Uncertainty |  Mexico |  2012  |  36 pp.",
-                    "ORDER_EN": "For orders write to: info@antidoto.global"
+                    "TITLE_1": "Promises |  Mexico |  2017  |  96 pp.",
+                    "TITLE_2": "Havana Uncertainty |  Mexico |  2012  |  36 pp.",
+                    "ORDER": "For orders write to: info@antidoto.global"
                 }
             },
             es: {
                 translations: {
-                    "ABOUT_TEXT_ES": "Antidoto se dedica a textos y ensayos de fotografías y multimedia de alcance internacional. Para pedidos e información escríbe a: info@antidoto.global.",
+                    "ABOUT_TEXT": "Antidoto se dedica a textos y ensayos de fotografías y multimedia de alcance internacional. Para pedidos e información escríbe a: info@antidoto.global.",
                     "HOME": "Inicio",
                     "COPIES": "Ejemplares",
-                    "TITLE_1_ES": "Promesas |  México |  2017  |  96 pp.",
-                    "TITLE_2_ES": "La Havana Incierta |  México |  2012  |  36 pp.",
-                    "ORDER_ES": "Para pedidos escríbe a: info@antidoto.global"
+                    "TITLE_1": "Promesas |  México |  2017  |  96 pp.",
+                    "TITLE_2": "La Havana Incierta |  México |  2012  |  36 pp.",
+                    "ORDER": "Para pedidos escríbe a: info@antidoto.global"
                 }
             }
         },

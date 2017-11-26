@@ -23,15 +23,14 @@
     @include flexbox();
     @include flex-direction(column);
     @include align-items(left);
-  }
+    padding: 0 40px;
 
-  .button {
-    color: #AABB94;
-    font-family: "Andale Mono", serif;
-    font-size: 1em;
-    background-color: transparent;
-    margin-left: 40px;
-    margin-bottom: 60px;
+    .info {
+      color: #AABB94;
+      font-family: "Andale Mono", serif;
+      font-size: 1em;
+      margin-top: 60px;
+    }
   }
 
   /*header for all secondary pages.
@@ -64,50 +63,57 @@
       text-decoration: none
     }
   }
+
+  section main {
+    @include flexbox();
+    @include justify-content(center);
+    width: 100vw;
+  }
+
   /* Display of thumbnail images and descriptions. */
-  section .thumbnails {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: flex-start;
-    margin-left: 40px;
-    margin-right: 40px;
+   main .thumbnails {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 40px;
 
-       .title1 {
-      margin: 20px 40px 60px 0;
-         background-image: url("../../assets/media/img/title1.png");
-         background-size: contain;
-         background-position: center;
-         background-repeat: no-repeat;
-      min-height: 270px;
+     .image {
+       background-size: contain;
+       background-position: center;
+       background-repeat: no-repeat;
+       min-height: 270px;
+     }
 
-         .caption {
+     .card {
+       @include flexbox();
+       @include flex-direction(column);
+       @include justify-content(space-between);
+       max-width: 360px;
+
+       .caption {
          color: #ffffff;
-      font-family: "Andale Mono", serif;
-      font-size: 1em;
-           text-align: center;
-           margin-top: -25px;
-         }
-      }
+         font-family: "Andale Mono", serif;
+         font-size: 1em;
+         text-align: center;
+         margin-bottom: 10px;
+       }
 
-    .title2 {
-      margin: 20px 40px 60px 0;
-      background-image: url("../../assets/media/img/title2.png");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 270px;
-      min-width: 360px;
+       .background_1 {
+         background-image: url("../../assets/media/img/title1.png");
+         @extend .image;
+       }
 
-      .caption {
-        color: #ffffff;
-        font-family: "Andale Mono", serif;
-        font-size: 1em;
-        text-align: center;
-        margin-top: -25px;
-      }
-    }
+       .background_2 {
+         background-image: url("../../assets/media/img/title2.png");
+         @extend .image;
+
+         min-width: 360px;
+       }
+     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main .thumbnails {
+    grid-template-columns: 1fr 1fr;
   }
 }

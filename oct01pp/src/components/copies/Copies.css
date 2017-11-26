@@ -34,14 +34,13 @@
     -ms-flex-align: left;
     -webkit-align-items: left;
     -moz-align-items: left;
-    align-items: left; }
-  .button {
-    color: #AABB94;
-    font-family: "Andale Mono", serif;
-    font-size: 1em;
-    background-color: transparent;
-    margin-left: 40px;
-    margin-bottom: 60px; }
+    align-items: left;
+    padding: 0 40px; }
+    section .info {
+      color: #AABB94;
+      font-family: "Andale Mono", serif;
+      font-size: 1em;
+      margin-top: 60px; }
   /*header for all secondary pages.
   */
   section .secheader {
@@ -65,40 +64,58 @@
       font-family: "Adobe Garamond Pro", serif;
       font-size: 2em;
       text-decoration: none; }
-  /* Display of thumbnail images and descriptions. */
-  section .thumbnails {
+  section main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: flex-start;
-    margin-left: 40px;
-    margin-right: 40px; }
-    section .thumbnails .title1 {
-      margin: 20px 40px 60px 0;
-      background-image: url("../../assets/media/img/title1.png");
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    width: 100vw; }
+  /* Display of thumbnail images and descriptions. */
+  main .thumbnails {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px; }
+    main .thumbnails .image, main .thumbnails .card .background_1, main .thumbnails .card .background_2 {
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
       min-height: 270px; }
-      section .thumbnails .title1 .caption {
+    main .thumbnails .card {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      justify-content: space-between;
+      max-width: 360px; }
+      main .thumbnails .card .caption {
         color: #ffffff;
         font-family: "Andale Mono", serif;
         font-size: 1em;
         text-align: center;
-        margin-top: -25px; }
-    section .thumbnails .title2 {
-      margin: 20px 40px 60px 0;
-      background-image: url("../../assets/media/img/title2.png");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 270px;
-      min-width: 360px; }
-      section .thumbnails .title2 .caption {
-        color: #ffffff;
-        font-family: "Andale Mono", serif;
-        font-size: 1em;
-        text-align: center;
-        margin-top: -25px; } }
+        margin-bottom: 10px; }
+      main .thumbnails .card .background_1 {
+        background-image: url("../../assets/media/img/title1.png"); }
+      main .thumbnails .card .background_2 {
+        background-image: url("../../assets/media/img/title2.png");
+        min-width: 360px; } }
+
+@media only screen and (min-width: 768px) {
+  main .thumbnails {
+    grid-template-columns: 1fr 1fr; } }
