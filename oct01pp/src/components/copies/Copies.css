@@ -59,11 +59,12 @@
       color: #AABB94;
       font-family: "Andale Mono", serif;
       font-size: 1.5em; }
-    section .secheader section .secheader h3 {
+    section .secheader section .secheader a {
       margin: 0;
       color: #0E6F8D;
       font-family: "Adobe Garamond Pro", serif;
-      font-size: 2em; }
+      font-size: 2em;
+      text-decoration: none; }
   /* Display of thumbnail images and descriptions. */
   section .thumbnails {
     display: flex;

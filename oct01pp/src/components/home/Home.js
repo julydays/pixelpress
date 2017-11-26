@@ -30,10 +30,10 @@ class Home extends Component {
                                 <Link to="about" className="white">about</Link>
                             </li>
                             <li onClick={() => changeLanguage('es')}>
-                                <Link to="copies" className="yellow">ejemplares</Link>
+                                <Link to="copies" className="yellow">publicaciones</Link>
                             </li>
                             <li onClick={() => changeLanguage('en')}>
-                                <Link to="copies" className="white">copies</Link>
+                                <Link to="copies" className="white">publications</Link>
                             </li>
                         </ul>
                     </div>
