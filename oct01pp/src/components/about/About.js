@@ -4,6 +4,7 @@ import { translate, Trans } from 'react-i18next';
 import './About.css';
 
 
+
 class About extends Component {
     render () {
         const { t } = this.props;
@@ -24,8 +25,8 @@ class About extends Component {
                 <div className="text">{t('ABOUT_TEXT_EN')}</div>
             </main>
 
-
         </section>
+
     }
 }
 

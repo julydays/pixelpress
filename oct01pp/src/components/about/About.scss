@@ -57,7 +57,7 @@
     font-size: 1.5em;
   }
 
-  /* TODO style the smaller logo like this but place in line*/
+
   section .secheader h3 {
     margin: 0;
     color: #0E6F8D;
@@ -72,6 +72,7 @@
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1em;
+    text-decoration-line: none;
   }
 
   section .secondarynav {
@@ -85,7 +86,6 @@
 
     .button {
       color: #AABB94;
-      background-color: #AABB94;
       font-family: "Andale Mono", serif;
       font-size: 1em;
     }
@@ -104,14 +104,24 @@
     margin-left: 40px;
     width: 75vw;
     align-content: flex-start;
-    font-size: .8em;
+
   }
 
-  /*TODO figure out why this style doesn't appear*/
   section .secondarymain text {
     font-family: "Andale Mono", serif;
     color: #FFF;
     margin-left: 40px;
-
+    font-size: 1em;
   }
+
+}
+/*TODO align the footer to the bottom of the page*/
+section .footer {
+  font-family: "Andale Mono", serif;
+  color: #AABB94;
+  font-size: 1em;
+  margin: 100px 40px 40px 0;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: baseline;
 }

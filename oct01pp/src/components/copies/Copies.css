@@ -1,3 +1,103 @@
 /*!
  * Copyright (c) 2017. Traveliko PTE.LTD. All rights Reserved.
  */
+/*colors */
+.yellow {
+  color: #AABB94; }
+
+.white {
+  color: #FFF; }
+
+.blue {
+  color: #0E6F8D; }
+
+/*mobile styles are applied to every other screen size until you override it*/
+@media only screen and (min-width: 320px) {
+  /*main container */
+  section {
+    background-color: #000;
+    min-height: 100vh;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    -webkit-align-items: left;
+    -moz-align-items: left;
+    align-items: left; }
+  .button {
+    color: #AABB94;
+    font-family: "Andale Mono", serif;
+    font-size: 1em;
+    background-color: transparent;
+    margin-left: 40px;
+    margin-bottom: 60px; }
+  /*header for all secondary pages.
+  */
+  section .secheader {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10vh;
+    border-bottom: 1px solid #FFF; }
+    section .secheader div {
+      display: flex;
+      align-items: baseline; }
+    section .secheader section .secheader h2 {
+      margin: 0 3px 0 40px;
+      color: #AABB94;
+      font-family: "Andale Mono", serif;
+      font-size: 1.5em; }
+    section .secheader section .secheader h3 {
+      margin: 0;
+      color: #0E6F8D;
+      font-family: "Adobe Garamond Pro", serif;
+      font-size: 2em; }
+  /* Display of thumbnail images and descriptions. */
+  section .thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 40px;
+    margin-right: 40px; }
+    section .thumbnails .title1 {
+      margin: 20px 40px 60px 0;
+      background-image: url("../../assets/media/img/title1.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 270px; }
+      section .thumbnails .title1 .caption {
+        color: #ffffff;
+        font-family: "Andale Mono", serif;
+        font-size: 1em;
+        text-align: center;
+        margin-top: -25px; }
+    section .thumbnails .title2 {
+      margin: 20px 40px 60px 0;
+      background-image: url("../../assets/media/img/title2.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 270px;
+      min-width: 360px; }
+      section .thumbnails .title2 .caption {
+        color: #ffffff;
+        font-family: "Andale Mono", serif;
+        font-size: 1em;
+        text-align: center;
+        margin-top: -25px; } }

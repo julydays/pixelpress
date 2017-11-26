@@ -30,7 +30,7 @@ class Home extends Component {
                                 <Link to="about" className="white">about</Link>
                             </li>
                             <li onClick={() => changeLanguage('es')}>
-                                <Link to="ejemplares" className="yellow">ejemplares</Link>
+                                <Link to="copies" className="yellow">ejemplares</Link>
                             </li>
                             <li onClick={() => changeLanguage('en')}>
                                 <Link to="copies" className="white">copies</Link>
@@ -40,10 +40,10 @@ class Home extends Component {
                     <div className="img">
 
                     </div>
-
                 </main>
 
             </div>
+
         </section>
     }
 }

@@ -38,6 +38,8 @@
 
       border-top: 1px solid #FFF;
       border-bottom: 1px solid #FFF;
+      border-left: transparent;
+      border-right: transparent;
     }
 
     /*header container*/
@@ -120,13 +122,17 @@
 }
 
 
+
 /*small tablet size*/
 @media only screen and (min-width: 768px) {
   section .wrapper {
 
     // TODO Desktop Wrapper layout
-      width: 90%;
-      border: 3px solid #FFF;
+      width: 100%;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-left: transparent;
+    border-right: transparent;
       margin-top: 6vh;
       height: 78vh;
       min-height: 78vh;
