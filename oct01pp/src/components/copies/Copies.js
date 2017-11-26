@@ -11,7 +11,7 @@ class Copies extends Component {
             <div className="secheader">
                 <div>
                     <h2>order</h2>
-                    <Link to="/" className="h3">antidoto</Link>
+                    <Link to="/" className="home-anchor">antidoto</Link>
                 </div>
             </div>
 
