@@ -11,7 +11,8 @@ i18n
                 translations: {
                     "ABOUT_TEXT": "Antidoto focuses on long-form text and photo essays with an international scope. For orders and information write to: info@antidoto.global.",
                     "HOME": "Home",
-                    "COPIES": "Copies",
+                    "ABOUT": "about",
+                    "COPIES": "publications",
                     "TITLE_1": "Promises |  Mexico |  2017  |  96 pp.",
                     "TITLE_2": "Havana Uncertainty |  Mexico |  2012  |  36 pp.",
                     "ORDER": "For orders write to: info@antidoto.global"
@@ -21,9 +22,10 @@ i18n
                 translations: {
                     "ABOUT_TEXT": "Antidoto se dedica a textos y ensayos de fotografías y multimedia de alcance internacional. Para pedidos e información escríbe a: info@antidoto.global.",
                     "HOME": "Inicio",
-                    "COPIES": "Ejemplares",
+                    "ABOUT": "acerca de",
+                    "COPIES": "publicaciones",
                     "TITLE_1": "Promesas |  México |  2017  |  96 pp.",
-                    "TITLE_2": "La Havana Incierta |  México |  2012  |  36 pp.",
+                    "TITLE_2": "La Habana Incierta |  México |  2012  |  36 pp.",
                     "ORDER": "Para pedidos escríbe a: info@antidoto.global"
                 }
             }

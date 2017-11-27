@@ -14,7 +14,7 @@
 /*mobile styles are applied to every other screen size until you override it*/
 @media only screen and (min-width: 320px) {
   /*main container */
-  section {
+  section_a {
     background-color: #000;
     min-height: 100vh;
     width: 100%;
@@ -34,37 +34,38 @@
     -ms-flex-align: left;
     -webkit-align-items: left;
     -moz-align-items: left;
-    align-items: left;
-    padding: 0 40px; }
-    section .info {
+    align-items: left; }
+    section_a .info {
       color: #AABB94;
       font-family: "Andale Mono", serif;
       font-size: 1em;
       margin-top: 60px; }
   /*header for all secondary pages.
   */
-  section .secheader {
+  section_a .secheader {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     width: 100%;
     min-height: 10vh;
-    border-bottom: 1px solid #FFF; }
-    section .secheader div {
+    border-bottom: 1px solid #FFF;
+    padding-left: 40px; }
+    section_a .secheader div {
       display: flex;
       align-items: baseline; }
-    section .secheader section .secheader h2 {
-      margin: 0 3px 0 40px;
+    section_a .secheader section_a .secheader h2 {
+      margin: 0 3px 0 7px;
       color: #AABB94;
       font-family: "Andale Mono", serif;
       font-size: 1.5em; }
-    section .secheader .home-anchor {
+    section_a .secheader .home-anchor {
       margin: 0;
       color: #0E6F8D;
       font-family: "Adobe Garamond Pro", serif;
       font-size: 2em;
-      text-decoration: none; }
-  section main {
+      text-decoration: none;
+      padding-left: 5px; }
+  section_a main {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;

@@ -16,7 +16,7 @@
 /*mobile styles are applied to every other screen size until you override it*/
 @media only screen and (min-width: 320px) {
   /*main container */
-  section {
+  section_a {
     background-color: #000;
     min-height: 100vh;
     width: 100%;
@@ -35,7 +35,7 @@
   /*header for all secondary pages.
   */
   //TODO align the content to the baseline!
-  section .secheader {
+  section_a .secheader {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -50,7 +50,7 @@
     }
   }
 
-  section .secheader h2 {
+  section_a .secheader h2 {
     margin: 0 3px 0 40px;
     color: #AABB94;
     font-family: "Andale Mono", serif;
@@ -58,7 +58,7 @@
   }
 
 
-  section .secheader h3 {
+  section_a .secheader h3 {
     margin: 0;
     color: #0E6F8D;
     font-family: "Adobe Garamond Pro", serif;
@@ -68,14 +68,14 @@
   /* TODO have some elements align in a row/right,
   not sure how to so applied a clumsy margin-right.
   Also, not sure why the color isn't appearing*/
-  section .secondarynav .button {
+  section_a .secondarynav .button {
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1em;
     text-decoration-line: none;
   }
 
-  section .secondarynav {
+  section_a .secondarynav {
     margin-left: 40px;
     height: 12vh;
     align-self: flex-end;
@@ -91,14 +91,14 @@
     }
   }
 
-  /*TODO figure out why this style doesn't appear, I copied this into the section above*/
-  section .secondarynav button {
+  /*TODO figure out why this style doesn't appear, I copied this into the section_a above*/
+  section_a .secondarynav button {
     color: #AABB94;
     font-family: "Andale Mono", serif;
     font-size: 1em;
   }
 
-  section .secondarymain {
+  section_a .secondarymain {
     font-family: "Andale Mono", serif;
     color: #FFF;
     margin-left: 40px;
@@ -107,7 +107,7 @@
 
   }
 
-  section .secondarymain text {
+  section_a .secondarymain text {
     font-family: "Andale Mono", serif;
     color: #FFF;
     margin-left: 40px;
@@ -116,7 +116,7 @@
 
 }
 /*TODO align the footer to the bottom of the page*/
-section .footer {
+section_a .footer {
   font-family: "Andale Mono", serif;
   color: #AABB94;
   font-size: 1em;

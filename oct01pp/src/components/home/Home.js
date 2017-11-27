@@ -38,7 +38,6 @@ class Home extends Component {
                         </ul>
                     </div>
                     <div className="img">
-
                     </div>
                 </main>
 

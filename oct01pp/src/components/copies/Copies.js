@@ -8,16 +8,17 @@ class Copies extends Component {
     render () {
         const { t } = this.props;
 
-        return <section className="body">
+        return <section_a className="body">
             <div className="secheader">
                 <div>
-                    <h2>order</h2>
                     <Link to="/" className="home-anchor">antidoto</Link>
+                    <h2>{t('COPIES')}</h2>
+
                 </div>
             </div>
 
             <div className="secondarynav">
-                <Link to='/about' className="button">{t('about')}</Link>
+                <Link to='/about' className="button">{t('ABOUT')}</Link>
             </div>
 
             <main>
@@ -38,7 +39,7 @@ class Copies extends Component {
 
             <p className="info">{t('ORDER')}</p>
 
-        </section>
+        </section_a>
     }
 }
 

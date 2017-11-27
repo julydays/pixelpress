@@ -9,11 +9,11 @@ class About extends Component {
     render () {
         const { t } = this.props;
 
-        return <section className="body">
+        return <section_a className="body">
             <div className="secheader">
                 <div>
-                    <h2>about</h2>
-                    <h3>antidoto</h3>
+                    <h2>{t('ABOUT')}</h2>
+                    <Link to="/" className="home-anchor">antidoto</Link>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ class About extends Component {
                 <div className="text">{t('ABOUT_TEXT')}</div>
             </main>
 
-        </section>
+        </section_a>
 
     }
 }
